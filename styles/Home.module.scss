@@ -6,5 +6,39 @@
 .card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; 
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.contant {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  ;
+}
+
+.prox,
+.avan {
+  background-color: #00B5CC;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+
+  &:hover {
+    background-color: yellowgreen;
+  }
+}
+
+.avan {
+  svg {
+    transform: rotate(180deg);
+  }
 }

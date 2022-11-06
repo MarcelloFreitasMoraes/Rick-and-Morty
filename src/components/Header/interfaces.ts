@@ -1,5 +1,3 @@
-
-export interface StageProps {
-   data: any;
-   name: string;
+export interface HeaderProps {
+   onClose?: any;
 }

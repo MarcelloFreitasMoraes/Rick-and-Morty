@@ -1,3 +1,3 @@
 export interface CardProps {
-   data?: string
+   data?: any
 }
