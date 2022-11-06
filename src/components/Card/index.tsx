@@ -5,6 +5,7 @@ export default function Cards({ data }: CardProps) {
 
     return (
         <div className={styles.container}>
+             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={data.image} className={styles.image} alt={'Personagens'} />
                 <h2>{data.name}</h2>
                 <p>STATUS: {data?.status}</p>
