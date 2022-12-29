@@ -1,9 +1,19 @@
-html,
+:root {
+
+  --ff-default: 'Creepster', cursive;
+
+  --dark: rgb(60 62 68);
+  --primary: #9acd32;
+  --secundary: #00B5CC;
+
+  --ligth: #ccc;
+}
+
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Creepster', cursive;
-  background-color: rgb(60 62 68);
+  font-family: var(--ff-default);
+  background-color: var(--dark);
 }
 
 a {
