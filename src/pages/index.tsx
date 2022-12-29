@@ -4,7 +4,7 @@ import { SetStateAction, useEffect, useState } from "react";
 import styles from "../../styles/Home.module.scss";
 import Cards from "../components/Card";
 import Header from "../components/Header";
-import Pagination from "../components/pagination";
+import Pagination from "../components/Pagination";
 
 export default function Home() {
   const [page, setPage] = useState(1);
